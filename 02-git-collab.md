@@ -6,8 +6,8 @@
 
 ---
 
-> 📎 **회사 노션 상세 자료** — 이 장의 심화 내용과 보충 설명은 노션에 있습니다.  
-> 링크: <!-- NOTION_LINK -->
+> 📎 **회사 노션 상세 자료** — 로컬에서 Bitbucket 인증(HTTP/SSH) 하는 방법  
+> 링크: [Bitbucket 인증 가이드](https://app.notion.com/p/bitbucket-server-360f536db3d580e9ad0dc5cf9baa1496)
 
 ---
 
