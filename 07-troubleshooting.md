@@ -6,6 +6,11 @@
 
 ---
 
+> 📎 **회사 노션 상세 자료** — 이 장의 심화 내용과 보충 설명은 노션에 있습니다.  
+> 링크: <!-- NOTION_LINK -->
+
+---
+
 ## git 관련
 
 ### "Your branch is behind 'origin/main'"
