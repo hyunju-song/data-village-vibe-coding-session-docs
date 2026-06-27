@@ -5,8 +5,8 @@
 
 ---
 
-> 🪟 **Windows 노트북 사용자** — 시작 전에 [setup-windows](setup-windows.md)부터 끝내고 오세요.  
-> WSL 설치는 재부팅·관리자 권한이 필요하니 **세션 전 미리** 마쳐 주세요.
+> ⚙️ **전원** — 세션 전에 [setup-harness](setup-harness.md)(하네스 설치)를 먼저 끝내세요.  
+> 🪟 **Windows 사용자** — 추가로 [setup-windows](setup-windows.md)(WSL 설치)도 끝내야 합니다. 재부팅·관리자 권한이 필요하니 **세션 전 미리** 마쳐 주세요.
 
 ---
 
