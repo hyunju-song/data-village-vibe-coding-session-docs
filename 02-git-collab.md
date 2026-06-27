@@ -14,7 +14,24 @@ git은 **파일의 변경 이력을 기록하는 도구**입니다.
 
 언제 / 누가 / 무엇을 바꿨는지 스냅샷처럼 저장해 둡니다. 덕분에 실수해도 이전 상태로 되돌릴 수 있습니다.
 
-코드를 저장하는 원격 공간이 **GitHub**입니다. git이 도구라면 GitHub은 그 도구로 올린 파일을 보관하는 서버입니다.
+git으로 관리하는 파일을 원격 서버에 올려두는 공간이 필요합니다. 대표적인 서비스가 **GitHub**과 **Bitbucket**입니다. **우리 회사는 Bitbucket을 사용합니다.** 이 강의에서 나오는 모든 레포와 실습은 Bitbucket에서 진행합니다.
+
+---
+
+### GitHub vs Bitbucket
+
+둘 다 git 저장소를 호스팅하는 서비스입니다. 핵심 차이는 아래 표를 보세요.
+
+| | GitHub | Bitbucket |
+| --- | --- | --- |
+| 만든 곳 | Microsoft | Atlassian (Jira·Confluence와 같은 회사) |
+| 주요 사용처 | 오픈소스, 개인 프로젝트 | 기업 내부 프로젝트 |
+| Jira 연동 | 별도 설정 필요 | 기본 지원 |
+| 우리 회사 | ✗ | ✅ 사용 중 |
+
+> **git 명령어는 완전히 동일합니다.** `git add`, `git commit`, `git push` — 어느 플랫폼을 쓰든 터미널에서 입력하는 명령어는 한 글자도 바뀌지 않습니다. Bitbucket이냐 GitHub이냐는 "웹 화면"의 차이일 뿐입니다.
+
+이 개념 사이트(SSOT)는 GitHub에 올라가 있지만, **실습·부트캠프 레포는 모두 Bitbucket**에 있습니다.
 
 ---
 
@@ -143,19 +160,21 @@ git push -u origin my-first-branch
 
 **6. PR 열기**
 
-GitHub에서 레포를 열면 노란색 배너로 "Compare & pull request" 버튼이 보입니다.
+Bitbucket에서 레포를 열고 왼쪽 메뉴의 **Pull requests → Create pull request** 를 클릭합니다.
 
-1. 버튼 클릭
-2. 제목과 설명 확인
-3. **Create pull request** 클릭
+1. **Source** — 내 브랜치 선택
+2. **Destination** — `main` 선택
+3. 제목 확인 후 **Create pull request** 클릭
+
+> push 직후 Bitbucket 화면 상단에 "Create a pull request" 안내 배너가 뜨기도 합니다. 그 버튼을 눌러도 됩니다.
 
 ---
 
 **7. merge**
 
-PR 페이지에서 **Merge pull request → Confirm merge** 를 클릭합니다.
+PR 페이지에서 **Merge** 버튼을 클릭합니다. Merge strategy는 기본값(Merge commit)으로 두면 됩니다.
 
-main에 합쳐진 브랜치는 삭제해도 됩니다. **Delete branch** 버튼이 바로 뜹니다.
+merge가 끝나면 브랜치를 삭제할지 묻습니다. **Delete branch**를 선택해도 됩니다.
 
 ---
 
@@ -190,7 +209,7 @@ git branch   # 지금 어느 브랜치인지 항상 확인
 
 **push 없이 PR을 만들려 할 때**
 
-GitHub에서 내 브랜치가 안 보인다면 push를 안 한 것입니다. 로컬 commit은 내 컴퓨터에만 있습니다. push해야 GitHub에 올라갑니다.
+Bitbucket에서 내 브랜치가 안 보인다면 push를 안 한 것입니다. 로컬 commit은 내 컴퓨터에만 있습니다. push해야 Bitbucket에 올라갑니다.
 
 ```bash
 git push -u origin 브랜치이름
