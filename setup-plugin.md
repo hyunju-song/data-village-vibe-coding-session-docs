@@ -9,7 +9,7 @@
 
 회사 표준 하네스는 **Claude Code 플러그인**으로 제공됩니다. 한 번 설치하면 Claude Code가 회사 표준 규칙·권한·자동 검증(훅)을 갖춘 상태가 됩니다. 우리는 사내 마켓플레이스에서 이 플러그인을 받아 씁니다.
 
-- **마켓플레이스**: `gsr-agent-marketplace`
+- **마켓플레이스**: [`gsr-agent-marketplace`](https://code.gsretail.com/scm/d-vill/gsr-agent-marketplace.git)
 - **플러그인**: `fe-agent-harness` (프론트엔드 — **오전 실습은 이것**) · `be-agent-harness` (백엔드 — 이후 세션)
 
 > 오전·오후 모두 **같은 마켓플레이스에서 같은 플러그인**을 설치합니다. 그래서 아침에 한 경험이 오후에 그대로 재현됩니다.
