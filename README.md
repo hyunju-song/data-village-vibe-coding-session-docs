@@ -14,7 +14,7 @@
 
 | 자료 | 장소 | 역할 |
 | --- | --- | --- |
-| **이 인덱스 (정문)** | 회사 노션 | 항상 여기서 출발 |
+| **이 인덱스 (정문)** | [회사 노션](https://app.notion.com/p/Vibe-Coding-Intensive-Course-38df536db3d580bd99dbc82afad399be?source=copy_link) | 항상 여기서 출발 |
 | **개념 SSOT** | 이 사이트 (GitHub Pages) | 하나의 최신 개념 출처 |
 | **오전 실습** | `data-village-vibe-coding-practice` 레포 → Use this template | 내 샌드박스 |
 | **오후 부트캠프** | `data-village-service-harness-bootcamp` 레포 → Use this template | 채점 테스트 |
