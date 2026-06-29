@@ -44,7 +44,7 @@
 | [01 · 터미널](01-terminal.md) | 터미널이 "컴퓨터와 대화하는 창"임을 이해하고 생존 동작 4~5개만 | `[손]` |
 | [02 · git 협업](02-git-collab.md) | 브랜치 → PR → merge로 안전하게 합치는 법 | `[손]` |
 | [03 · 프론트엔드 / 백엔드 / DB란?](03-dashboard-3parts.md) | 세 영역의 역할과 요청 흐름 한눈에 | `[읽기]` |
-| [04 · 왜 이 스택](04-stack-why.md) | Next.js · Flask · DynamoDB/Athena/S3를 왜 고랐는지 | `[읽기]` |
+| [04 · 왜 이 스택](04-stack-why.md) | Next.js · Flask · DynamoDB/Athena/S3를 왜 골랐는지 | `[읽기]` |
 | [05 · 배포란](05-deploy.md) | "내 결과물에 URL이 생겨 남이 본다"는 개념 | `[읽기]` |
 | [06 · 하네스](06-harness.md) | 반복·위험을 하네스가 없애주는 방식 | `[읽기]` |
 | [07 · 막혔을 때](07-troubleshooting.md) | 흔한 에러와 복구법, 체크리스트 | `[참조]` |

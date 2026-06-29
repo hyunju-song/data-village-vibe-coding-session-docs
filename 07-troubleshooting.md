@@ -103,7 +103,6 @@ git stash pop       # 임시 저장한 내용 가져오기
 순서대로 확인합니다.
 
 - [ ] Bitbucket에서 PR이 main으로 merge됐는가?
-- [ ] Bitbucket에서 PR이 main으로 merge됐는가?
 - [ ] S3에 빌드 결과물이 정상 업로드됐는가?
 - [ ] 빌드 로그에 빨간 오류가 있는가? → 오류 메시지를 복사해 Claude Code에 붙여넣기
 - [ ] 백엔드 Lambda 배포도 완료됐는가?
