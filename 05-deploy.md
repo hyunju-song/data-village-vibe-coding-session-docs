@@ -23,9 +23,9 @@
 
 ### 프론트엔드는 어디로 배포되나
 
-Next.js로 만든 화면은 **AWS Amplify** 또는 **CloudFront + S3** 위에 올라갑니다.
+Next.js로 만든 화면은 **CloudFront + S3** 위에 올라갑니다. 정적 파일로 빌드한 결과물을 S3 버킷에 업로드하고, CloudFront가 그 파일을 전 세계 엣지 서버에서 빠르게 제공합니다.
 
-Amplify는 Bitbucket 레포와 연결해두면, main에 merge할 때마다 자동으로 새 버전을 배포합니다. 직접 배포 명령을 입력할 필요가 없습니다.
+main에 merge하면 하네스가 자동으로 빌드 → S3 업로드 → CloudFront 캐시 갱신까지 처리합니다. 직접 배포 명령을 입력할 필요가 없습니다.
 
 ---
 
@@ -68,8 +68,8 @@ SSO 설정은 하네스가 처리합니다. 우리가 직접 설정할 필요 �
     ▼
 Bitbucket에 push → PR → main merge
     │
-    ▼ (Amplify가 자동 감지)
-프론트 빌드 & 배포 ──────────────────► URL 생성
+    ▼ (하네스가 자동 감지)
+프론트 빌드 → S3 업로드 → CloudFront ► URL 생성
 백엔드 배포 (Lambda/ECS)                  │
     │                                     ▼
     ▼                              SSO 인증 후 접속 가능
