@@ -12,7 +12,7 @@
 - [00 · 환영 / 오늘 끝나면 할 수 있는 것](00-welcome.md)
 - [01 · 터미널 안 무서워하기](01-terminal.md)
 - [02 · git으로 협업하기](02-git-collab.md)
-- [03 · 대시보드는 세 조각](03-dashboard-3parts.md)
+- [03 · 프론트엔드 / 백엔드 / DB란?](03-dashboard-3parts.md)
 - [04 · 왜 이 스택이 표준인가](04-stack-why.md)
 - [05 · 배포란 무엇인가](05-deploy.md)
 - [06 · 하네스: 왜 & 어떻게](06-harness.md)
