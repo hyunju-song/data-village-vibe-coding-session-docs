@@ -18,6 +18,9 @@
 
 ## 시작 전 확인
 
+> 🔑 **Bitbucket 인증 필수** — 플러그인 설치는 사내 git 저장소에서 파일을 받아오므로, 로컬에서 Bitbucket에 접근할 수 있어야 합니다.  
+> HTTP 토큰 또는 SSH 키 설정이 안 되어 있다면 먼저 끝내세요 → [Bitbucket 인증 가이드](https://app.notion.com/p/bitbucket-server-360f536db3d580e9ad0dc5cf9baa1496)
+
 - [ ] 회사망 접속 (필요 시 VPN) — `code.gsretail.com`에 접근 가능해야 합니다.
 - [ ] 사내 git 로그인/자격증명 설정 — 로그인되어 있어야 설치가 됩니다.
 - [ ] (Windows 사용자) [setup-windows](#/setup-windows)를 먼저 끝냈는가 — 같은 셸에서 진행합니다.
