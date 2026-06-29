@@ -2,7 +2,7 @@
 
 **사전 준비**
 
-- [⚙️ 하네스 설치 — 전원 필수](setup-harness.md)
+- [⚙️ 플러그인 설치 — 전원 필수](setup-plugin.md)
 - [🪟 Windows 셋업 — Windows 사용자만](setup-windows.md)
 
 ---

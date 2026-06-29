@@ -5,7 +5,7 @@
 
 ---
 
-> ⚙️ **전원** — 세션 전에 [setup-harness](setup-harness.md)(하네스 설치)를 먼저 끝내세요.  
+> ⚙️ **전원** — 세션 전에 [setup-plugin](setup-plugin.md)(플러그인 설치)을 먼저 끝내세요.  
 > 🪟 **Windows 사용자** — 추가로 [setup-windows](setup-windows.md)(WSL 설치)도 끝내야 합니다. 재부팅·관리자 권한이 필요하니 **세션 전 미리** 마쳐 주세요.
 
 ---

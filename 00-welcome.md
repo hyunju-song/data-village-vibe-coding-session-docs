@@ -7,7 +7,7 @@
 ---
 
 > 📎 **회사 노션 상세 자료** — 이 장의 심화 내용과 보충 설명은 노션에 있습니다.  
-> 링크: <!-- NOTION_LINK -->
+> 링크: [Vibe Coding Intensive Course — 노션](https://app.notion.com/p/Vibe-Coding-Intensive-Course-38df536db3d580bd99dbc82afad399be?v=37bf536db3d5804b95b2000cb51281d9&source=copy_link)
 
 ---
 

@@ -9,7 +9,7 @@
 > 📎 **회사 노션 상세 자료** — 이 장의 심화 내용과 보충 설명은 노션에 있습니다.  
 > 링크: <!-- NOTION_LINK -->
 
-> 🔧 **설치하는 법** → [setup-harness](setup-harness.md)
+> 🔧 **플러그인 설치하는 법** → [setup-plugin](setup-plugin.md)
 
 ---
 
